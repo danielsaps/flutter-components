@@ -1,0 +1,90 @@
+{
+    "nombreApp" : "Componentes",
+    "rutas" : [
+        {
+            "ruta" : "alert",
+            "icon" : "add_alert",
+            "texto": "Alertas"
+        },
+        {
+            "ruta" : "avatar",
+            "icon" : "accessibility",
+            "texto": "Avatars"
+        },
+        {
+            "ruta" : "card",
+            "icon" : "folder_open",
+            "texto": "Cards - Tarjetas"
+        },
+        {
+            "ruta" : "animatedContainer",
+            "icon" : "donut_large",
+            "texto": "Animated Container"
+        },
+        {
+            "ruta" : "inputs",
+            "icon" : "input",
+            "texto": "inputs"
+        },
+        {
+            "ruta" : "slider",
+            "icon" : "tune",
+            "texto": "Slider"
+        },
+        {
+            "ruta" : "list",
+            "icon" : "list",
+            "texto": "Listas"
+        },
+        {
+            "ruta" : "listview_horizontal",
+            "icon" : "list",
+            "texto": "Lista Horizontal"
+        },
+        {
+            "ruta" : "drawable",
+            "icon" : "list",
+            "texto": "Drawable"
+        },
+        {
+            "ruta" : "botones",
+            "icon" : "list",
+            "texto": "Botones"
+        },
+        {
+            "ruta" : "headers",
+            "icon" : "list",
+            "texto": "Headers"
+        },
+        {
+            "ruta" : "animaciones",
+            "icon" : "list",
+            "texto": "Animaciones"
+        },
+        {
+            "ruta" : "circular_progress",
+            "icon" : "list",
+            "texto": "Circular Progress"
+        },
+        {
+            "ruta" : "graficas_circulares",
+            "icon" : "list",
+            "texto": "Graficas Circulares"
+        },
+        {
+            "ruta" : "slide_show_page",
+            "icon" : "list",
+            "texto": "Slideshow"
+        },
+        {
+            "ruta" : "emergency",
+            "icon" : "list",
+            "texto": "Emergencia"
+        },
+        {
+            "ruta" : "sliver_list",
+            "icon" : "list",
+            "texto": "Sliver List"
+        }
+    ]
+}
