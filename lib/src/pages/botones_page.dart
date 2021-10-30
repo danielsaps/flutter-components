@@ -25,6 +25,23 @@ class BotonesPage extends StatelessWidget {
               color: Colors.red,
               thickness: 1,
             ),
+            Container(
+              width: double.infinity,
+              child: ElevatedButton(
+                onPressed: () {},
+                child: Text('Extended Button'),
+              ),
+            ),
+            Divider(height: 20),
+            GestureDetector(
+              onTap: () {},
+              child: Container(
+                padding: EdgeInsets.all(10),
+                color: Colors.blue,
+                child: Text('Gesture Detector'),
+              ),
+            ),
+            Divider(height: 20),
             ElevatedButton(onPressed: () {}, child: Text('Elevated')),
             Divider(height: 20),
             ElevatedButton(
