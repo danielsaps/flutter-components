@@ -16,23 +16,13 @@ class CardPage extends StatelessWidget {
           ),
           _cardTipo2(),
           SizedBox(
-            height: 50.0,
+            height: 20.0,
           ),
-          Container(
-            margin: EdgeInsets.symmetric(horizontal: 30.0),
-            width: 200,
-            height: 60,
-            decoration: BoxDecoration(
-              color: Colors.white,
-              borderRadius: BorderRadius.all(Radius.circular(100)),
-              boxShadow: [
-                BoxShadow(
-                  color: Colors.black45,
-                  blurRadius: 5.0,
-                )
-              ],
-            ),
+          CardTipo3(),
+          SizedBox(
+            height: 20.0,
           ),
+          CartType4()
         ],
       ),
     );
@@ -104,6 +94,60 @@ class CardPage extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(30.0),
         child: card,
+      ),
+    );
+  }
+}
+
+class CartType4 extends StatelessWidget {
+  const CartType4({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return ClipRRect(
+      borderRadius: BorderRadius.circular(20),
+      child: Column(
+        children: [
+          Container(
+            height: 30,
+            color: Colors.blue,
+          ),
+          Container(
+            height: 80,
+            color: Colors.red,
+          ),
+          Container(
+            height: 30,
+            color: Colors.green,
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class CardTipo3 extends StatelessWidget {
+  const CardTipo3({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      margin: EdgeInsets.symmetric(horizontal: 30.0),
+      width: 200,
+      height: 60,
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.all(Radius.circular(100)),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black45,
+            blurRadius: 5.0,
+          )
+        ],
       ),
     );
   }
